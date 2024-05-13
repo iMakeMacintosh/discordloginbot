@@ -9,7 +9,7 @@ class DiscordClient(discord.Client):
         print('Success!')
 
 def password():
-    rawData = processImage()
+    rawData = getPassword(image)
     return rawData.from64()
 
 if __name__ == '__main__':
